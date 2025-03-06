@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-title
+    ><mat-icon
+      style="margin-top: 5px"
+      fontIcon="subdirectory_arrow_right"
+    ></mat-icon>
+    Stack front-end
+  </mat-card-title>
+</mat-card>
+
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let skill of skillsTimeline">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <mat-icon fontIcon="more_horiz"> </mat-icon>
+        {{ skill.title | translate }}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{ skill.description | translate }}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-list>
+      <mat-list-item *ngFor="let item of skill.details">
+        {{ item | translate }}
+      </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

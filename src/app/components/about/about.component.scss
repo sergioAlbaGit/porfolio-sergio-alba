@@ -1,0 +1,92 @@
+@import
+url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem 2rem;
+  // background-color: rgb(47, 48, 110, 0.95);
+  // background: linear-gradient(90deg, #1e3c72, #61728f) !important;
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .about-content {
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-variant: small-caps;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3vw;
+  }
+
+  .about-text {
+    max-width: 600px;
+    color: #bebebe;
+
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #bebebe;
+
+      &:hover {
+        color: rgb(85, 158, 241);
+      }
+    }
+
+    a {
+      flex: 1;
+      justify-content: space-between;
+      margin: 3vw;
+    }
+  }
+
+  .about-image img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 52%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+
+    &:hover{
+    transform: scale(1.10);
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-image img {
+      width: 150px;
+      height: 150px;
+      margin-left: 0%;
+    }
+  }
+
+}

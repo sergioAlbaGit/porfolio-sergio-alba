@@ -1,0 +1,27 @@
+<div id="projects">
+  <div class="container">
+    <h2>
+      <i class="fi fi-rr-apps"></i>
+      {{ "projects.title" | translate }}
+    </h2>
+    <div class="projects-grid">
+      <div class="project-card" *ngFor="let project of projects">
+        <a [href]="project.link" target="_blank">
+          <img
+            [src]="project.image"
+            [alt]="project.name"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.descriptionKey | translate }}</p>
+            <span>
+              <strong>{{ "projects.technologies" | translate }}:</strong>
+              {{ project.technologies.join(", ") }}
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

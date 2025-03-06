@@ -1,0 +1,57 @@
+{
+  "about": {
+    "title": "Sobre mí",
+    "description": "<i class='fi fi-rr-quote-right' style='font-size: 35px'></i> ¡Hola! <i class='fi fi-rr-hand-wave'></i> Soy <strong>Frontend Developer</strong> apasionado por el desarrollo web con <strong>Angular</strong> y tecnologías modernas. Me encanta crear interfaces interactivas, optimizadas y con una gran experiencia de usuario.<br/> Mi enfoque es el <strong>diseño minimalista</strong> con animaciones fluidas y código limpio. <i class='fi fi-rr-quote-right' style='font-size: 35px'></i>",
+    "panoramic-curriculum":"Descargar CV panorámico",
+    "vertical-curriculum": "Descargar CV vertical"
+  },
+  "header": {
+    "logo": "Sergio Alba",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "technologies": "Tecnologías",
+    "countryApp": {
+      "description": "Este proyecto proporciona información a través de una petición HTTP sobre su código y la cantidad de habitantes de un país en base a introducir su país, capital o región, según se seleccione. Esta información se puede modificar para que muestre más datos deseados."
+    },
+    "dynamicList": {
+      "description": "A base de componentes, permite añadir dos campos: Nombre y Fuerza de un 'Superhéroe' con temática Dragon Ball. Además, se habilita un botón para eliminar la propia fila."
+    },
+    "gifsApp": {
+      "description": "App que muestra las mayores tendencias de gifs por defecto. Se puede buscar cualquier gif a través del buscador implementado."
+    },
+    "xxx": {
+      "description": "Español"
+    }
+  },
+  "skillsTimeline": {
+    "angular": {
+      "structures": "Estructuras",
+      "components": "Componentes",
+      "services": "Servicios",
+      "routing": "Routing",
+      "pages": "Páginas"
+    },
+    "ts": {
+      "typing": "Tipado",
+      "interfaces": "Interfaces",
+      "classes": "Clases",
+      "generics": "Genéricos",
+      "decorators": "Decoradores"
+    },
+    "rxjs": {
+      "observables": "Observables",
+      "subscriptions": "Suscripciones",
+      "operators": "Operadores",
+      "subjects": "Subjects",
+      "signals": "Señales"
+    }
+  },
+  "skills": {
+      "title": "Habilidades"
+  }
+}

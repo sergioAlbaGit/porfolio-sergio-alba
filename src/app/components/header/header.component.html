@@ -1,0 +1,40 @@
+<header>
+  <nav class="container">
+    <div class="logo">{{ "header.logo" | translate }}</div>
+
+    <!-- Menú de navegación -->
+    <ul class="nav-links">
+      <li>
+        <a routerLink="/" fragment="about" (click)="closeMenu()">
+          {{ "header.about" | translate }}
+        </a>
+      </li>
+      <li>
+        <a routerLink="/" fragment="projects" (click)="closeMenu()">
+          {{ "header.projects" | translate }}
+        </a>
+      </li>
+      <li>
+        <a routerLink="/" fragment="skills" (click)="closeMenu()">
+          {{ "header.skills" | translate }}
+        </a>
+      </li>
+      <li>
+        <a routerLink="/" fragment="contact" (click)="closeMenu()">
+          {{ "header.contact" | translate }}
+        </a>
+      </li>
+    </ul>
+    <!-- Botón de menú para móviles -->
+    <div class="menu-btn" (click)="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- Contenedor de los botones de idioma -->
+    <div class="language-buttons">
+      <button (click)="changeLanguage('es')">Español</button>
+      <button (click)="changeLanguage('en')">English</button>
+    </div>
+  </nav>
+</header>

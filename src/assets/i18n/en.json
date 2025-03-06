@@ -1,0 +1,58 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "<i class='fi fi-rr-quote-right' style='font-size: 35px'></i> Hello! <i class='fi fi-rr-hand-wave'></i> I'm a <strong>Frontend Developer</strong> passionate about web development with <strong>Angular</strong> and modern technologies. I love creating interactive, optimized interfaces with a great user experience.<br/> My focus is on <strong>minimalist design</strong> with smooth animations and clean code. <i class='fi fi-rr-quote-right' style='font-size: 35px'></i>",
+    "panoramic-curriculum":"Download panoramic CV",
+    "vertical-curriculum": "Download vertical CV"
+
+  },
+  "header": {
+    "logo": "Sergio Alba",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "technologies": "Technologies",
+    "countryApp": {
+      "description": "This project provides information through an HTTP request about its code and the number of inhabitants of a country based on entering its name, capital, or region, as selected. This information can be modified to display more desired data."
+    },
+    "dynamicList": {
+      "description": "Using components, it allows adding two fields: Name and Strength of a 'Superhero' with a Dragon Ball theme. Additionally, a button is enabled to remove the row itself."
+    },
+    "gifsApp": {
+      "description": "App that shows the top trending gifs by default. You can search for any gif through the built-in search engine."
+    },
+    "xxx": {
+      "description": "Ingles"
+    }
+  },
+  "skillsTimeline": {
+    "angular": {
+      "structures": "Structures",
+      "components": "Components",
+      "services": "Services",
+      "routing": "Routing",
+      "pages": "Pages"
+    },
+    "ts": {
+      "typing": "Typing",
+      "interfaces": "Interfaces",
+      "classes": "Classes",
+      "generics": "Generics",
+      "decorators": "Decorators"
+    },
+    "rxjs": {
+      "observables": "Observables",
+      "subscriptions": "Subscriptions",
+      "operators": "Operators",
+      "subjects": "Subjects",
+      "signals": "Signals"
+    }
+  },
+  "skills":{
+    "title": "Skills"
+  }
+}

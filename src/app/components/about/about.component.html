@@ -1,0 +1,32 @@
+<section id="about">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>
+          <i class="fi fi-tr-square-terminal"></i>
+          {{ "about.title" | translate }}
+        </h2>
+        <p [innerHTML]="'about.description' | translate"></p>
+        <a
+          [innerHTML]="'about.panoramic-curriculum' | translate"
+          class="btn btn-info"
+          href="assets/docs/CV-Sergio-Alba-Panoramic_compressed.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        </a>
+        <a
+          [innerHTML]="'about.vertical-curriculum' | translate"
+          class="btn btn-info"
+          href="assets/docs/CV-Sergio-Alba-Vertical_compressed.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        </a>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/profile.png" alt="Foto de perfil" />
+      </div>
+    </div>
+  </div>
+</section>

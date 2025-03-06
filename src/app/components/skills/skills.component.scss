@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+#skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  // background-color: rgb(47, 48, 110, 0.95);
+  // background: linear-gradient(90deg, #1e3c72, #61728f) !important;
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    display: inline;
+  }
+
+  .skills-content {
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-variant: small-caps;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3vw;
+
+
+  }
+
+  .skills-text{
+
+    max-width: 600px;
+    color: #bebebe;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #bebebe;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .skills-content {
+      flex-direction: column; /* Cambia la dirección a columna como en about-content */
+      text-align: center;
+      align-items: center; /* Asegura alineación */
+    }
+
+    .skills-text {
+      text-align: center; /* Centra el contenido de texto */
+    }
+
+    h2 {
+      display: flex;
+      flex-direction: row; /* Coloca el icono al lado del texto */
+      align-items: center; /* Alinea el icono y el texto verticalmente */
+      justify-content: center; /* Centra horizontalmente */
+    }
+
+    h2 i {
+      margin-right: 10px; /* Añade espacio entre el icono y el texto */
+    }
+  }
+
+
+
+
+}
