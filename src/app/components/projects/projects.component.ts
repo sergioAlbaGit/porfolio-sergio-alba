@@ -23,9 +23,9 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       name: 'Country App',
-      link: 'https://sergio-alba-netlify-country-app.netlify.app',
+      link: 'https://sergio-alba-country-app-v19.netlify.app/',
       descriptionKey: 'projects.countryApp.description',
-      technologies: ['Angular', 'TypeScript', 'Bootstrap'],
+      technologies: ['Angular', 'TypeScript', 'Bootstrap', 'Tailwind', 'DaisyUI'],
       image: 'assets/images/Country-app.png'
     },
     {
