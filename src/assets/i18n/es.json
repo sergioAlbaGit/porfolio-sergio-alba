@@ -24,6 +24,9 @@
     "gifsApp": {
       "description": "App que muestra las mayores tendencias de gifs por defecto. Se puede buscar cualquier gif a través del buscador implementado."
     },
+    "pipesApp": {
+      "description": "Demostración de los distintos tipo de Pipes que se pueden aplicar en Angular, son muy poderosos para transoformar la data visualmente sin modificar los datos internamente en formatos desados; por ejemplo, un pipe númerico => Dato interno: 76492647.28 => Dato visual en pantalla: 76.492.647,28 €."
+    },
     "xxx": {
       "description": "Español"
     }

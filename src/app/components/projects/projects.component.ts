@@ -41,6 +41,13 @@ export class ProjectsComponent {
       descriptionKey: 'projects.gifsApp.description',
       technologies: ['Angular', 'TypeScript', 'Tailwind', 'RxJS'],
       image: 'assets/images/Gifs-app.png'
+    },
+    {
+      name: 'Pipes App',
+      link: 'https://pipes-app-angular-v19.netlify.app/',
+      descriptionKey: 'projects.pipesApp.description',
+      technologies: ['Angular', 'TypeScript', 'Tailwind', 'RxJS', 'DaisyUI', 'Pipes'],
+      image: 'assets/images/Pipes-app.png'
     }
   ];
 }
