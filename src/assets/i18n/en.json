@@ -57,5 +57,15 @@
   },
   "skills":{
     "title": "Skills"
-  }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "If you'd like to contact me, you can do so through the following platforms:",
+    "email": "sergio.alba.dev@gmail.com",
+    "linkedin": "linkedin.com/in/sergioalbatorres/",
+    "phone": "+34 620 175 760",
+    "github": "https://github.com/sergioAlbaGit",
+    "whatsapp": "WhatsApp me",
+    "address": " 08107 Martorellas, Barcelona, España"
+}
 }

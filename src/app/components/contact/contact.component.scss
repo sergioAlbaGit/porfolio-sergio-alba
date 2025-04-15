@@ -1,0 +1,47 @@
+@import
+url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'),
+url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+#contact{
+  padding: 5rem 2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-variant: small-caps;
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 3vw;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #bebebe;
+  }
+
+  h3{color: #bebebe;}
+  a{text-decoration: none;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+}
