@@ -24,6 +24,10 @@ url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-re
     font-size: 2rem;
     margin-bottom: 20px;
     color: #bebebe;
+
+  }
+  p{
+    text-wrap: balance;
   }
 
   h3{color: #bebebe;}
@@ -44,4 +48,20 @@ url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-re
     height: 100%;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    .container{
+
+    h2 {
+      flex-direction: column;
+      text-align: center;
+    }
+      p{
+        flex-direction: column;
+      text-align: center;
+    text-wrap: balance;
+  }
+    }
+  }
+
 }

@@ -27,6 +27,9 @@
     "pipesApp": {
       "description": "Demostración de los distintos tipo de Pipes que se pueden aplicar en Angular, son muy poderosos para transoformar la data visualmente sin modificar los datos internamente en formatos desados; por ejemplo, un pipe númerico => Dato interno: 76492647.28 => Dato visual en pantalla: 76.492.647,28 €."
     },
+    "auraSounds": {
+      "description": "AuraSounds es una aplicación web que ofrece sonidos relajantes de alta calidad para ayudarte a concentrarte, relajarte o dormir mejor. Con una interfaz intuitiva, puedes personalizar tu ambiente sonoro con facilidad."
+    },
     "xxx": {
       "description": "Español"
     }

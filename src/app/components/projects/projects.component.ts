@@ -48,6 +48,13 @@ export class ProjectsComponent {
       descriptionKey: 'projects.pipesApp.description',
       technologies: ['Angular', 'TypeScript', 'Tailwind', 'RxJS', 'DaisyUI', 'Pipes'],
       image: 'assets/images/Pipes-app.png'
+    },
+        {
+      name: 'Aura Sounds App',
+      link: 'https://aura-sounds.netlify.app/',
+      descriptionKey: 'projects.auraSounds.description',
+      technologies: ['Angular', 'TypeScript', 'Tailwind', 'DaisyUI', 'Flaticon'],
+      image: 'assets/images/Aura-sounds-app.png'
     }
   ];
 }
